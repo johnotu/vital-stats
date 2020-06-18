@@ -4,9 +4,9 @@
 
 For the first MVP, the following user stories should be fulfiled using dummy data.
 
-* User should be able to see a panel display of current weight, glucose level and pressure
-* User should be able to see charts of historic glucose and pressure data
-* User should be able to see a floating button that inidcates where new values can be entered.
+- [x] User should be able to see a panel display of current weight, glucose level and pressure
+- [x] User should be able to see charts of historic glucose and pressure data
+- [] User should be able to see a floating button that inidcates where new values can be entered.
 
 ### MVP-2
 

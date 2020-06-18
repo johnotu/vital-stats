@@ -5,7 +5,7 @@
  */
 
 import React from 'react';
-import {SafeAreaView, StyleSheet, View, Text, StatusBar} from 'react-native';
+import {SafeAreaView, StyleSheet, View, StatusBar} from 'react-native';
 import {Colors} from './utils';
 
 import Header from './components/Header';
