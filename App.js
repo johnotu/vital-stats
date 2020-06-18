@@ -10,7 +10,8 @@ import {Colors} from './utils';
 
 import Header from './components/Header';
 import Panel from './components/Panel';
-import Chart from './components/Chart';
+import PressureChart from './components/PressureChart';
+import GlucoseChart from './components/GlucoseChart';
 
 const App = () => {
   return (
@@ -23,10 +24,13 @@ const App = () => {
             <Panel />
           </View>
           <View style={styles.chartsContainer}>
-            <Chart title="Blood Pressure" />
+            <PressureChart
+              systolic={[111, 128, 129, 122, 120, 115, 120]}
+              diastolic={[62, 88, 88, 84, 80, 76, 82]}
+            />
           </View>
           <View style={styles.chartsContainer}>
-            <Chart title="Glucose" />
+            <GlucoseChart levels={[10.2, 13.4, 15.6, 14.3, 9.6, 4.3, 6.2]} />
           </View>
         </View>
       </SafeAreaView>

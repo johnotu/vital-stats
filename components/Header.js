@@ -19,7 +19,7 @@ const styles = StyleSheet.create({
     backgroundColor: Colors.white,
   },
   text: {
-    color: Colors.primary,
+    color: Colors.primaryDarker,
     fontSize: 24,
     fontWeight: '600',
     textAlign: 'center',
